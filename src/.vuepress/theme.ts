@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Victor Da V",
+    url: "https://aicell.cc",
   },
 
   iconAssets: "iconfont",
@@ -64,17 +64,24 @@ export default hopeTheme({
     
   },
 
+  pageInfo:["Author","Date","Category","Tag","Word","PageView"],
+
   plugins: {
-    comment: {
-      // @ts-expect-error: You should generate and use your own comment service
-      provider: "Waline",
-    },
+    // comment: {
+    //   // @ts-expect-error: You should generate and use your own comment service
+    //   provider: "Twikoo",
+    // },
     copyCode:{
       duration: 2000,
     },
-    photoSwipe:{
-      
-    },
+
+    photoSwipe:{},
+    // copyright: {
+    //   global: true,
+    //   triggerWords:10,
+    //   author:"Victor da V",
+    //   license: "ok",
+    // },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
@@ -118,7 +125,6 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
