@@ -1,0 +1,13 @@
+---
+home: true
+# layout: BlogHome
+hero: true
+title: "Blog"
+heroText: "GGBlog"
+tagline: "Hello man"
+heroImage: "/logo.png"
+bgImage: "/img/bg.jpg"
+heroFullScreen: true
+---
+
+### 一个真正的man

@@ -10,11 +10,29 @@ export default hopeTheme({
     url: "https://aicell.cc",
   },
 
+
+  blog:{
+    avatar:"/logo.png",
+    name:"Victor Da V",
+    description: "一个真正的man",
+    intro: "/about",
+    roundAvatar: true,
+    timeline:"时光机",
+    medias:{
+      Github:"https://www.github.com/aaronjinno",
+      Gmail:"/about/gmail",
+      Wechat:"/about/wechat",
+      QQ:"/about/qq",
+      BiliBili:"https://space.bilibili.com/47292194",
+    }
+  },
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
+
+  
 
   docsDir: "demo/theme-docs/src",
 
@@ -75,6 +93,12 @@ export default hopeTheme({
       duration: 2000,
     },
 
+
+    blog: {
+      excerptLength:0,
+    },
+   
+
     photoSwipe:{},
     // copyright: {
     //   global: true,
@@ -125,61 +149,63 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-    // uncomment these if you want a pwa
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
+
+    pwa: {
+      favicon: "/favicon.ico",
+      cacheHTML: true, //缓存所有HTML页面
+      cachePic: true, //缓存站点图片
+      appendBase: true,
+      maxSize:2000,
+      maxPicSize:3000,
+      apple: {
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Demo",
+            short_name: "Demo",
+            url: "/demo/",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+      },
+    },
   },
 });
