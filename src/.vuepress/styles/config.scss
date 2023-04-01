@@ -1,3 +1,24 @@
-// you can change config here
+//======================================
+//===========用于纯变量配置==============
+//======================================
+
+//1.颜色相关 >以下都是默认值
 $colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
-  #7f8c8d !default;
+  #7f8c8d !default;//颜色列表
+$code-color:( //代码块的背景颜色
+  light: #383a42,
+  dark: #abb2bf,
+)!default;
+
+$code-bg-color: ( //代码块的字体颜色
+  light: #ecf4fa,
+  dark: #282c34,
+) !default;
+
+
+//2.响应式布局断点 >以下都是默认值
+$pc: 1440px !default; //PC端
+$laptop:1280px !default; //笔记本端
+$pad: 959px !default; //ipad端
+$tablet: 719px !default; //平板端
+$mobile: 419px !default; //手机端

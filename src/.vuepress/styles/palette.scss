@@ -1,2 +1,78 @@
-// you can change colors here
-$theme-color: #096dd9;
+//======================================
+//===========用于 CSS 变量写入==============
+//======================================
+
+//1.颜色设置 >以下皆为默认值
+$theme-color: #096dd9; //默认主题色;
+$text-color: ( //字体颜色
+  light: #2c3e50,
+  dark: #9e9e9e,
+) !default;
+$bg-color: ( //背景色
+  light: #fff,
+  dark: #0d1117,
+) !default;
+$bg-color-secondary: ( //另一个浅背景色
+  light: #f8f8f8,
+  dark: #161b22,
+) !default;
+$bg-color-tertiary: ( //另一个更浅的背景色
+  light: #efeef4,
+  dark: #21262c,
+) !default;
+$border-color: (  //边框颜色
+  light: #eaecef,
+  dark: #30363d,
+) !default;
+
+$box-shadow: ( //元素阴影色
+  light: #f0f1f2,
+  dark: #282a32,
+) !default;
+$card-shadow: ( //卡片阴影色
+  light: rgb(0 0 0 / 15%),
+  dark: rgb(0 0 0 / 30%),
+) !default;
+
+//2. 定义颜色常量
+$black: (
+  light: #000,
+  dark: #fff,
+);
+$light-grey: (
+  light: #999,
+  dark: #666,
+);
+$white: (
+  light: #fff,
+  dark: #000,
+);
+
+//3.布局设置
+//3.1 导航栏
+$navbar-height: 3.75rem !default; //导航栏高度
+$navbar-horizontal-padding: 1.5rem !default; //导航栏水平填充
+$navbar-vertical-padding: 0.7rem !default; //导航栏垂直填充
+$navbar-mobile-height: 3.25rem !default; //移动设备上的导航栏高度
+$navbar-mobile-horizontal-padding: 1rem !default; //移动设备上的导航栏水平填充
+$navbar-mobile-vertical-padding: 0.5rem !default; //移动设备上的导航栏垂直填充
+
+//3.2 侧边栏
+$sidebar-width: 18rem !default; // 侧边栏宽度
+$sidebar-mobile-width: 16rem !default; //移动设备侧边栏宽度
+
+//3.3 内容
+$content-width: 780px !default; //主要内容的宽度
+$home-page-width: 1160px !default; //主页内容的宽度
+
+//3.4 字体
+$font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", SimSun, sans-serif' !default; //普通文本上使用的字体
+$font-family-heading: 'Georgia Pro, Crimson, Georgia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", SimSun, sans-serif' !default; //用于标题元素的字体
+
+//3.5 代码
+$font-family-mono: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace' !default; //代码上使用的字体
+$line-numbers-width: 2.5rem !default; //代码块中行号的宽度
+
+//3.6 过渡
+$color-transition: "0.3s ease" !default; //用于颜色的过渡
+$transform-transition: "0.3s ease" !default; //用于变换动画的过渡
