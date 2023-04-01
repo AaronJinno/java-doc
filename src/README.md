@@ -10,7 +10,7 @@ bgImage: "/img/bg.jpg"
 heroFullScreen: true
 projects: [
     {
-        name:"Python",
+        name: "Python",
         link: "/python/",
         desc: "Python is awesome",
         icon: "activity",
