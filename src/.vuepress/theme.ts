@@ -3,120 +3,95 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
+  //1.基本配置
   hostname: "https://aicell.cc",
-
   author: {
     name: "Victor Da V",
     url: "https://aicell.cc",
   },
 
+  //2.外观配置
+  favicon: "/favicon.svg",
+  darkmode: "toggle",
+  print:true,
+  iconAssets: "iconfont",
+  
+  //3.布局配置
+  logo: "/logo.svg",
+  repoDisplay: false,
+  navbarIcon: true,
+  navbarLayout: {
+    start: ["Brand"],
+    center: ["Links"],
+    end: ["Language","Outlook"]
+  },
+  sidebarIcon: true,
+  headerDepth: 1,
+  pageInfo:[
+    "Author","Date","Category","Tag","Word"
+  ],
+  lastUpdated: false,
+  contributors: false,
+  editLink: false,
+  footer: "Victor Da V",
+  displayFooter: true,
+  copyright: "Copyright © Free To Copy",
+  toc: true,
 
+  //4.locale
+  locales: {
+    "/": {
+      // navbar: enNavbar,
+      sidebar: enSidebar,
+    },
+
+    "/zh/": {
+      navbar: zhNavbar,
+      sidebar: zhSidebar,
+    },
+  },
+
+  //5.功能配置
+  encrypt: {
+    config: {
+      "/about/encrypt.html": ["1234"],
+    },
+  },
   blog:{
-    avatar:"/logo.png",
+    avatar:"/avatar.jpg",
     name:"Victor Da V",
-    description: "一个真正的man",
+    description: "未来世界的流浪者,AI学习者",
     intro: "/about",
     roundAvatar: true,
     timeline:"时光机",
     medias:{
       Github:"https://www.github.com/aaronjinno",
-      Gmail:"/about/gmail",
-      Wechat:"/about/wechat",
-      QQ:"/about/qq",
+      // Gmail:"/about/gmail",
+      // Wechat:"/about/wechat",
+      // QQ:"/about/qq",
       BiliBili:"https://space.bilibili.com/47292194",
     }
   },
-  iconAssets: "iconfont",
 
-  logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
-
-  
-
-  docsDir: "demo/theme-docs/src",
-
-  locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
-  },
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
-    },
-    
-  },
-
-  pageInfo:["Author","Date","Category","Tag","Word","PageView"],
-
+  //6.插件配置
   plugins: {
-    // comment: {
-    //   // @ts-expect-error: You should generate and use your own comment service
-    //   provider: "Twikoo",
-    // },
-    copyCode:{
-      duration: 2000,
-    },
-
-
     blog: {
       excerptLength:0,
     },
-   
-
-    photoSwipe:{},
-    // copyright: {
-    //   global: true,
-    //   triggerWords:10,
-    //   author:"Victor da V",
-    //   license: "ok",
-    // },
-
-    // all features are enabled for demo, only preserve features you need here
+    copyCode:{},
+    nprogress: true,
     mdEnhance: {
       align: true,
       attrs: true,
       chart: true,
       codetabs: true,
+      container: true,
       demo: true,
       echarts: true,
       figure: true,
       flowchart: true,
+      footnote: true,
       gfm: true,
       imgLazyload: true,
       imgSize: true,
@@ -146,6 +121,7 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
+      tasklist: false,
       vPre: true,
       vuePlayground: true,
     },

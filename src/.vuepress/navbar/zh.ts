@@ -7,25 +7,20 @@ export const zhNavbar = navbar([
   //2.指南
   { 
     text: "指南", 
-    icon: "discover", 
+    icon: "creative", 
     link: "/zh/guide/" 
   },
 
   //3.python
   {
     text: "Python",
-    icon: "creative",
+    icon: "python",
     prefix: "/zh/python/",
     children: [
       {
         text: "Python 基础",
-        icon: "creative",
+        icon: "python",
         link: "base/",
-      },
-      {
-        text: "Matplotlib",
-        icon: "config",
-        link: "Matplotlib/",
       },
     ],
   },
@@ -33,14 +28,35 @@ export const zhNavbar = navbar([
   //4.数学
   {
     text: "数学",
-    icon: "note",
+    icon: "calculate",
     link: "/zh/math/",
   },
 
   //5.算法
   {
     text: "算法",
-    icon: "note",
+    icon: "change",
     link: "/zh/algorithm/",
   },
+
+  //6.机器学习
+  {
+    text: "机器学习",
+    icon: "android",
+    link: "/zh/mitchell/",
+  },
+
+  //7.深度学习
+  {
+    text: "深度学习",
+    icon: "workingDirectory",
+    link: "/zh/dl/"
+  },
+
+  //8.前沿
+  {
+    text: "前沿",
+    icon: "navigate",
+    link: "/zh/edge/"
+  }
 ]);

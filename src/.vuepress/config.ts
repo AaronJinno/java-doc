@@ -7,18 +7,16 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "AiCell",
+      description: "AI Full stack technique center",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "文档演示",
-      description: "vuepress-theme-hope 的文档演示",
+      title: "AiCell",
+      description: "AI全栈技术中心",
     },
   },
 
   theme,
-
-  // Enable it with pwa
-  // shouldPrefetch: false,
+  shouldPrefetch: false,
 });

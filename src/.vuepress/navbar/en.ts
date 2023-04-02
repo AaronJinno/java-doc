@@ -39,9 +39,30 @@ export const enNavbar = navbar([
 
   //5.算法
   {
-    text: "algorithm",
+    text: "Algorithm",
     icon: "note",
     link: "/algorithm/",
   },
+
+  //6.机器学习
+  {
+    text: "Mitchell",
+    icon: "note",
+    link: "/mitchell/",
+  },
+
+  //7.深度学习
+  {
+    text: "Deep Learning",
+    icon: "note",
+    link: "/dl/"
+  },
+
+  //8.前沿
+  {
+    text: "Edge",
+    icon: "note",
+    link: "/edge/"
+  }
 
 ]);

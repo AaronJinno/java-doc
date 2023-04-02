@@ -3,19 +3,10 @@ home: true
 layout: BlogHome
 hero: true
 title: "Blog"
-heroText: "GGBlog"
-tagline: "Hello man"
+heroText: "AI Cell"
+tagline: "AI Full stack technique center,<br>Only <a href='/zh/'>Chinese version now =></a>"
 heroImage: "/logo.png"
-bgImage: "/img/bg.jpg"
+bgImage: "/img/bg1.png"
 heroFullScreen: true
-projects: [
-    {
-        name: "Python",
-        link: "/python/",
-        desc: "Python is awesome",
-        icon: "activity",
-    }
-]
----
 
-### 一个真正的man
+---
