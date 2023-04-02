@@ -45,3 +45,15 @@ jobs:
           # 这是文档部署到的分支名称
           branch: docs
           folder: src/.vuepress/dist
+
+    
+
+      - name: 部署到服务器
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_PRIVATE_KEY }}
+          ARGS: "-avzr --delete"
+          SOURCE: "/"
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+          REMOTE_USER: ${{ secrets.USER_NAME }}
+          TARGET: ${{ secrets.SERVER_TARGET }}
