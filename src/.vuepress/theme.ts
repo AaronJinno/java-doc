@@ -76,11 +76,15 @@ export default hopeTheme({
 
   //6.插件配置
   plugins: {
+    prismjs:{
+      light:"one-dark",
+      dark:"one-dark",
+    },
     blog: {
       excerptLength:0,
       filter:(page)=>Boolean(page.filePathRelative) && !page.frontmatter.home && Boolean(page.frontmatter.article)
     },
-    copyCode:{},
+    copyCode: {},
     nprogress: true,
     mdEnhance: {
       align: true,
