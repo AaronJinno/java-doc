@@ -17,8 +17,7 @@ date: 2023-04-03
       - Python介绍
       - 安装Python: Windows、Linux、MacOS
       - HelloWord
-      - 解释器
-      - 开发环境
+      - 开发环境 IDE
       - PyCharm
    2. 基本语法
       - 字面量
