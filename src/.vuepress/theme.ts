@@ -43,6 +43,9 @@ export default hopeTheme({
     "/": {
       // navbar: enNavbar,
       sidebar: enSidebar,
+      blog:{
+        description:"Rangers for the future of the world, AI learners"
+      }
     },
 
     "/zh/": {
