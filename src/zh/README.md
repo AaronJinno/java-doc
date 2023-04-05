@@ -8,5 +8,4 @@ tagline: "成为未来世界的幸存者"
 heroImage: "/logo.png"
 bgImage: "/bg/bg5.png"
 heroFullScreen: true
-
 ---
