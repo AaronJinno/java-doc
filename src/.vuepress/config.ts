@@ -3,7 +3,7 @@ import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro"
 
 export default defineUserConfig({
-  base: "/",
+  base: "/java-doc/",
   lang: "zh-CN",
   title:"Java全栈",
   description: "Java全栈技术中心",
