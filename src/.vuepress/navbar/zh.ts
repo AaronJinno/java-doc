@@ -38,30 +38,49 @@ export const zhNavbar = navbar([
   },
 
   //5.算法
+  // {
+  //   text: "算法",
+  //   icon: "variable",
+  //   link: "/zh/algorithm/",
+  // },
+
+  //6.机器学习+
+  // {
+  //   text: "AI技术",
+  //   icon: "android",
+  //   link: "/zh/mitchell/",
+  // },
+
+  // //7.深度学习
+  // {
+  //   text: "深度学习",
+  //   icon: "workingDirectory",
+  //   link: "/zh/dl/"
+  // },
+
+  //8.其他零散知识点
   {
-    text: "算法",
-    icon: "variable",
-    link: "/zh/algorithm/",
+    text: "其他",
+    icon: "expansion",
+    link:"/zh/other",
   },
 
-  //6.机器学习
-  {
-    text: "机器学习",
-    icon: "android",
-    link: "/zh/mitchell/",
-  },
-
-  //7.深度学习
-  {
-    text: "深度学习",
-    icon: "workingDirectory",
-    link: "/zh/dl/"
-  },
-
-  //8.前沿
-  {
-    text: "前沿",
-    icon: "community",
-    link: "/zh/edge/"
-  }
+  //9. 项目
+  // {
+  //   text: "项目",
+  //   icon: "storage",
+  //   link: "/zh/item/"
+  // },
+   //10.dev
+  //  {
+  //   text: "dev",
+  //   icon: "shell",
+  //   link: "/zh/edge/"
+  //  },
+    //11.前沿
+    // {
+    //   text: "前沿",
+    //   icon: "community",
+    //   link: "/zh/edge/"
+    // },
 ]);
