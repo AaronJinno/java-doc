@@ -23,7 +23,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: ["Links"],
-    end: ["Language","Outlook"]
+    end: ["Language","Outlook","Search"]
   },
   sidebarIcon: true,
   headerDepth: 1,

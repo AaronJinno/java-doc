@@ -1,17 +1,17 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  //1.首页：一般不用导航
+  //0.首页：一般不用导航
   // "/zh/",
 
-  //2.指南
+  //1.指南
   { 
     text: "指南", 
     icon: "arrow", 
     link: "/zh/guide/" 
   },
 
-  //3.python
+  //2.python
   {
     text: "Python",
     icon: "python",
@@ -30,57 +30,57 @@ export const zhNavbar = navbar([
     ],
   },
 
-  //4.数学
+  //3.数学
   {
     text: "数学",
     icon: "boolean",
     link: "/zh/math/",
   },
 
-  //5.算法
-  // {
-  //   text: "算法",
-  //   icon: "variable",
-  //   link: "/zh/algorithm/",
-  // },
+  //4.算法
+  {
+    text: "算法",
+    icon: "variable",
+    link: "/zh/algorithm/",
+  },
 
-  //6.机器学习+
-  // {
-  //   text: "AI技术",
-  //   icon: "android",
-  //   link: "/zh/mitchell/",
-  // },
+  //5.机器学习
+  {
+    text: "机器学习",
+    icon: "android",
+    link: "/zh/mitchell/",
+  },
 
-  // //7.深度学习
-  // {
-  //   text: "深度学习",
-  //   icon: "workingDirectory",
-  //   link: "/zh/dl/"
-  // },
+   //6.深度学习
+  {
+    text: "深度学习",
+    icon: "workingDirectory",
+    link: "/zh/dl/"
+  },
 
-  //8.其他零散知识点
+  //7.其他零散知识点
   {
     text: "其他",
     icon: "expansion",
     link:"/zh/other",
   },
 
-  //9. 项目
-  // {
-  //   text: "项目",
-  //   icon: "storage",
-  //   link: "/zh/item/"
-  // },
-   //10.dev
-  //  {
-  //   text: "dev",
-  //   icon: "shell",
-  //   link: "/zh/edge/"
-  //  },
-    //11.前沿
-    // {
-    //   text: "前沿",
-    //   icon: "community",
-    //   link: "/zh/edge/"
-    // },
+  //8. 项目
+  {
+    text: "项目",
+    icon: "storage",
+    link: "/zh/item/"
+  },
+   //9.dev
+   {
+    text: "dev",
+    icon: "shell",
+    link: "/zh/edge/"
+   },
+    //10.前沿
+    {
+      text: "前沿",
+      icon: "community",
+      link: "/zh/edge/"
+    },
 ]);
