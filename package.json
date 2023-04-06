@@ -1,7 +1,7 @@
 {
-  "name": "aicell",
+  "name": "java-doc",
   "version": "1.0.0",
-  "description": "AI docs",
+  "description": "Java Docs",
   "license": "MIT",
   "type": "module",
   "scripts": {

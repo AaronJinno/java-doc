@@ -1,13 +1,13 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { zhNavbar } from "./navbar/index.js";
+import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   //1.基本配置
   hostname: "https://aicell.cc",
   author: {
     name: "Victor Da V",
-    url: "https://aicell.cc",
+    url: "https://aicell.cc/about",
   },
 
   //2.外观配置
@@ -23,7 +23,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: ["Links"],
-    end: ["Language","Outlook","Search"]
+    end: ["Outlook","Search"]
   },
   sidebarIcon: true,
   headerDepth: 1,
@@ -41,14 +41,6 @@ export default hopeTheme({
   //4.locale
   locales: {
     "/": {
-      // navbar: enNavbar,
-      sidebar: enSidebar,
-      blog:{
-        description:"Rangers for the future of the world, AI learners"
-      }
-    },
-
-    "/zh/": {
       navbar: zhNavbar,
       sidebar: zhSidebar,
     },
