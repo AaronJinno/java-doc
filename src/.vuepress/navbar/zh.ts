@@ -40,7 +40,7 @@ export const zhNavbar = navbar([
       {
         text: "MongoDB",
         icon: "array",
-        link:"mogondb/",
+        link:"mongodb/",
       }
     ]
   },
@@ -64,7 +64,12 @@ export const zhNavbar = navbar([
     icon: "shell",
     link: "/dev/"
    },
-   // 理论
+   {
+    text: "项目",
+    icon: "exercise",
+    link: "/item/"
+   },
+   //10.理论
    {
     text: "理论",
     icon: "anonymous",

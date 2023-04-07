@@ -1,6 +1,5 @@
 ---
-title: "指南"
-index: false
+title: "项目"
 ---
 ::: tip
 当前处于建设阶段
