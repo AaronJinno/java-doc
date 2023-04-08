@@ -1,0 +1,1 @@
+import{_ as t,P as n,Q as c,S as e}from"./framework-c142c4d6.js";const s={},o=e("div",{class:"hint-container tip"},[e("p",{class:"hint-container-title"},"提示"),e("p",null,"当前处于建设阶段")],-1),i=[o];function _(a,l){return n(),c("div",null,i)}const d=t(s,[["render",_],["__file","index.html.vue"]]);export{d as default};
