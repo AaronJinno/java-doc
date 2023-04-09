@@ -112,10 +112,11 @@
 	.text {
 		position: relative;
 		/* top: 50%; */
-        top: 40%; 
+        top: 45%; 
 		transform: translateY(-50%);
 		width:185px;
 		float:right;
+
 	}
 	.title {
 		display: block;

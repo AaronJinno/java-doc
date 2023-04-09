@@ -79,6 +79,11 @@ export default hopeTheme({
       excerptLength:0,
       filter:(page)=>Boolean(page.filePathRelative) && !page.frontmatter.home && Boolean(page.frontmatter.article)
     },
+    components:{
+      components:[
+        //配置激活的内置组件
+      ]
+    },
     copyCode: {},
     nprogress: true,
     mdEnhance: {
