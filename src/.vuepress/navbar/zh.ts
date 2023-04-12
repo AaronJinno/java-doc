@@ -1,84 +1,277 @@
-import { navbar } from "vuepress-theme-hope";
+import { git, navbar } from "vuepress-theme-hope";
+import { m } from "vuepress-theme-hope/lib/node/index-eccaf9af";
 
 export const zhNavbar = navbar([
   
-  //1.指南
+  //0.指南
   { 
     text: "指南", 
-    icon: "update", 
+    icon: "zhinan", 
     link: "/guide/" 
   },
 
-  //2.Java
+  //1.Java
   {
     text: "Java",
     icon: "java",
-    link: "/java/",
-  },
-
-  //3. Spring
-  {
-    text: "Spring",
-    icon: "alias",
-    link: "/spring/",
-  },
-
-
-  //4.中间件
-  {
-    text: "中间件",
-    icon: "mesh",
-    link: "/middle/",
-  },
-
-   //6.SQL
-  {
-    text: "SQL",
-    icon: "mysql",
-    prefix: "/sql/",
+    prefix: "/java/",
     children:[
       {
-        text: "MongoDB",
-        icon: "array",
-        link:"mongodb/",
+        text:"JavaSE",
+        icon:"java",
+        link:"javase/"
+      },
+      {
+        text: "JavaWeb",
+        icon: "java1",
+        link: "javaweb/"
+      },
+      {
+        text: "JVM",
+        icon: "JVM",
+        link: "jvm/"
+      },
+      {
+        text: "内置函数",
+        icon: "java3",
+        link: "func/"
+      },
+      {
+        text: "IDEA",
+        icon: "Idea",
+        link: "idea/"
       }
     ]
   },
 
-  //7.服务器
+  // 2. 框架
   {
-    text: "服务器",
-    icon: "module",
-    link:"/service/",
+    text: "框架",
+    icon: "SPRINGMVC",
+    prefix:"/frame/",
+    children:[
+      {
+        text: "打包",
+        children:[
+          {
+            text: "Maven",
+            icon: "maven",
+            link: "maven/"
+          },
+        ]
+      },
+      {
+        text: "SSM",
+        children:[
+          {
+            text: "Sping",
+            icon: "SPRINGMVC",
+            link: "spring/"
+          },
+          {
+            text: "SpringMVC",
+            icon: "spring",
+            link:"springmvc/",
+          },
+          {
+            text:"MyBatis",
+            icon: "MYBATIS",
+            link: "mybatis/",
+          },
+          {
+            text: "MyBatisPlus",
+            icon: "gobatis",
+            link: "mybatisplus/"
+          },
+          {
+            text: "SpringBoot",
+            icon: "SPRINGBOOT",
+            link: "springboot/"
+          },
+        ]
+      },
+      {
+        text:"微服务",
+        children:[
+          {
+            text: "SpringCloud & Alibaba",
+            icon: "spring-cloud",
+            link: "sc/",
+          },
+          {
+            text: "Nacos",
+            icon: "Nacos",
+            link: "nacos/",
+          },
+          {
+            text: "Gateway",
+            icon: "gateway",
+            link: "gateway/",
+          },
+          {
+            text: "OpenFeign",
+            icon: "http",
+            link: "openfeign/",
+          },
+          {
+            text: "Seata",
+            icon: "seat-a-select",
+            link: "Seata/",
+          },
+          {
+            text: "Sentinel",
+            icon: "sentinel",
+            link: "sentinel/",
+          },{
+            text: "过时组件",
+            icon: "jinggao",
+            link: "old/",
+          },
+        ]
+      }
+    ]
+  },
+  
+   //3.SQL
+  {
+    text: "SQL",
+    icon: "sql",
+    prefix: "/sql/",
+    children:[
+      {
+        text: "MySQL",
+        icon: "mySql",
+        link:"mysql/",
+      },
+      {
+        text: "Redis",
+        icon: "redis",
+        link:"redis/",
+      },
+      {
+        text: "MongoDB",
+        icon: "connection-MongoDB",
+        link:"mongodb/",
+      },
+      {
+        text: "Memcache",
+        icon: "memcacheyunshujukuMemcac",
+        link:"memcache/",
+      },
+      {
+        text: "ES",
+        icon: "elasticsearch-Elasticsearch",
+        link:"es/",
+      },
+    ]
   },
 
-  //8. 工具
+
+  //4.服务器
   {
-    text: "工具",
-    icon: "tool",
-    link: "/tool/"
+    text: "服务器",
+    icon: "yunpan",
+    prefix:"/service/",
+    children:[
+      {
+        text: "Linux",
+        icon: "linux__easyiconnet",
+        link: "linux/"
+      },
+      {
+        text: "shell",
+        icon: "powershell",
+        link: "shell/"
+      },
+      {
+        text: "Nginx",
+        icon: "nginx_",
+        link: "nginx/"
+      },
+      {
+        text: "Docker",
+        icon: "Docker",
+        link: "docker/"
+      },
+      
+    ]
   },
-   //9.dev
-   {
-    text: "dev",
-    icon: "shell",
-    link: "/dev/"
-   },
-   {
+
+  //5. 插件
+  {
+    text: "插件",
+    icon: "zujianhua",
+    prefix:"/plugin/",
+    children:[
+      {
+        text: "swagger",
+        icon:"swagger",
+        link:"swagger/",
+      },
+    ]
+  },
+
+  //6. 轮子
+  {
+    text: "轮子",
+    icon: "zujiancaozuozujianfuxuankuangxuanzhong",
+    prefix: "/blocks/",
+    children:[
+      {
+        text: "后台管理",
+        icon: "houtai",
+        link: "admin/"
+      }
+    ]
+  },
+
+
+
+  //7.项目
+  {
     text: "项目",
-    icon: "exercise",
+    icon: "shixushujuku",
     link: "/item/"
-   },
-   //10.理论
-   {
-    text: "理论",
-    icon: "anonymous",
-    link: "/theory/"
-   },
-    //10.其他：一些外链
-    {
-      text: "others",
-      icon: "community",
-      link: "/other/"
-    },
+  },
+
+  //8.其他
+  {
+    text: "其他",
+    icon:"qita",
+    prefix:"/other/",
+    children:[
+      {
+        text: "工具",
+        children:[
+          {
+            text: "Git",
+            icon: "git",
+            link: "git/"
+          },
+        ]
+      },
+      {
+        text:"理论",
+        children:[
+          {
+            text: "设计模式",
+            icon: "shejimoshi",
+            link: "mode"
+          }
+        ]
+      },
+      {
+        text:"专业与通用技术",
+        children:[
+          {
+            text: "正则",
+            icon: "zhengze",
+            link: "regex"
+          }
+        ]
+      }
+
+    ]
+  },
+
 ]);

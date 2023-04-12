@@ -3,13 +3,11 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/guide/":"structure",
   "/java/":"structure",
-  "/spring/":"structure",
-  "/middle/":"structure",
+  "/frame/":"structure",
   "/sql/":"structure",
   "/service/":"structure",
-  "/tool/":"structure",
-  "/dev/":"structure",
+  "/plugin/":"structure",
+  "/blocks/":"structure",
   "/item":"structure",
-  "/theory/":"structure",
   "/other/":"structure",
 });

@@ -14,7 +14,17 @@ export default hopeTheme({
   favicon: "/favicon.svg",
   darkmode: "toggle",
   print:true,
-  iconAssets: "iconfont",
+  // iconAssets: "iconfont",
+  iconAssets: [
+    //1. java+SQL
+    "https://at.alicdn.com/t/c/font_4012527_665xphx07bq.css?spm=a313x.7781069.1998910419.52&file=font_4012527_665xphx07bq.css",
+    //2. Common
+    "https://at.alicdn.com/t/c/font_4012534_xsn7tql6vvf.css?spm=a313x.7781069.1998910419.52&file=font_4012534_xsn7tql6vvf.css",
+    //3. Other
+    "https://at.alicdn.com/t/c/font_4012543_xhboviprh8q.css?spm=a313x.7781069.1998910419.89&file=font_4012543_xhboviprh8q.css"
+  ],
+
+
   
   //3.布局配置
   logo: "/logo.svg",

@@ -1,6 +1,6 @@
 ---
-title: "MongoDB"
-icon: array
+title: "    MongoDB"
+icon: connection-MongoDB
 index: false
 ---
 MogoDB版本：6.0.5  
