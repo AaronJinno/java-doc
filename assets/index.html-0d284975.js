@@ -1,0 +1,1 @@
+import{_ as t,P as n,Q as c,S as e}from"./framework-7e8eb00a.js";const s={},o=e("div",{class:"hint-container tip"},[e("p",{class:"hint-container-title"},"提示"),e("p",null,"文档迁移中...")],-1),i=[o];function _(a,l){return n(),c("div",null,i)}const d=t(s,[["render",_],["__file","index.html.vue"]]);export{d as default};
