@@ -1,5 +1,5 @@
 ---
-title: "Linux"
+title: "                    Linux"
 icon: "linux__easyiconnet"
 index: false
 ---

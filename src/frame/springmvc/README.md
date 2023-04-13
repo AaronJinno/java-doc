@@ -1,5 +1,5 @@
 ---
-title: "                  springMVC"
+title: "                  SpringMVC"
 index: false
 icon: "spring"
 ---

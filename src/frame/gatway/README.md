@@ -1,5 +1,5 @@
 ---
-title: "    Gateway"
+title: "         Gateway"
 index: false
 icon: "gateway"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "nginx"
+title: "                nginx"
 icon: "nginx_"
 index: false
 ---

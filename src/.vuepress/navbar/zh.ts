@@ -140,7 +140,7 @@ export const zhNavbar = navbar([
     children:[
       {
         text: "MySQL",
-        icon: "mySql",
+        icon: "xingzhuang",
         link:"mysql/",
       },
       {

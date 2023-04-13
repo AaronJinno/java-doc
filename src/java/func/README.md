@@ -1,5 +1,5 @@
 ---
-title: "         内置函数"
+title: "                内置函数"
 icon: "java3"
-idnex: false
+index: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "         MySQL"
-icon: "mySql"
+icon: "xingzhuang"
 index: false
 ---
 :::tip

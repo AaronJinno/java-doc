@@ -8,6 +8,6 @@ export const zhSidebar = sidebar({
   "/service/":"structure",
   "/plugin/":"structure",
   "/blocks/":"structure",
-  "/item":"structure",
+  "/item/":"structure",
   "/other/":"structure",
 });

@@ -1,5 +1,5 @@
 ---
-title: "                SpringBoot"
+title: "               SpringBoot"
 index: false
 icon: "SPRINGBOOT"
 ---

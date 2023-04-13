@@ -1,5 +1,5 @@
 ---
-title: "                MyBatisPlus"
+title: "               MyBatisPlus"
 index: false
 icon: "gobatis"
 ---

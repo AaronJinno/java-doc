@@ -1,5 +1,5 @@
 ---
-title: "0.map"
+title: "->Map"
 
 ---
 ::: tip
