@@ -80,7 +80,7 @@ export const zhNavbar = navbar([
           },
           {
             text: "MyBatisPlus",
-            icon: "gobatis",
+            icon: "mybatis-plus",
             link: "mybatisplus/"
           },
           {
