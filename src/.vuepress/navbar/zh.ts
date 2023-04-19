@@ -51,7 +51,7 @@ export const zhNavbar = navbar([
     prefix:"/frame/",
     children:[
       {
-        text: "打包",
+        text: "依赖管理",
         children:[
           {
             text: "Maven",
@@ -90,48 +90,51 @@ export const zhNavbar = navbar([
           },
         ]
       },
-      {
-        text:"微服务",
-        children:[
-          {
-            text: "SpringCloud & Alibaba",
-            icon: "spring-cloud",
-            link: "sc/",
-          },
-          {
-            text: "Nacos",
-            icon: "Nacos",
-            link: "nacos/",
-          },
-          {
-            text: "Gateway",
-            icon: "gateway",
-            link: "gateway/",
-          },
-          {
-            text: "OpenFeign",
-            icon: "http",
-            link: "openfeign/",
-          },
-          {
-            text: "Seata",
-            icon: "seat-a-select",
-            link: "Seata/",
-          },
-          {
-            text: "Sentinel",
-            icon: "sentinel",
-            link: "sentinel/",
-          },{
-            text: "过时组件",
-            icon: "jinggao",
-            link: "old/",
-          },
-        ]
-      }
     ]
   },
-  
+  {
+    text:"微服务",
+    prefix:"/cloud/",
+    icon:"weifuwukaifa",
+    children:[
+      {
+        text: "SpringCloud & Alibaba",
+        icon: "spring-cloud",
+        link: "sc/",
+      },
+      {
+        text: "Nacos",
+        icon: "Nacos",
+        link: "nacos/",
+      },
+      {
+        text: "Gateway",
+        icon: "gateway",
+        link: "gateway/",
+      },
+      {
+        text: "OpenFeign",
+        icon: "http",
+        link: "openfeign/",
+      },
+      {
+        text: "Seata",
+        icon: "seat-a-select",
+        link: "Seata/",
+      },
+      {
+        text: "Sentinel",
+        icon: "sentinel",
+        link: "sentinel/",
+      },{
+        text: "过时组件",
+        icon: "jinggao",
+        link: "old/",
+      },
+    ]
+  },
+
+
    //3.SQL
   {
     text: "SQL",
