@@ -83,13 +83,18 @@ export const zhNavbar = navbar([
             icon: "mybatis-plus",
             link: "mybatisplus/"
           },
+        ]
+      },
+      {
+        text: "其他框架",
+        children:[
           {
             text: "SpringBoot",
             icon: "SPRINGBOOT",
             link: "springboot/"
           },
         ]
-      },
+      }
     ]
   },
   {

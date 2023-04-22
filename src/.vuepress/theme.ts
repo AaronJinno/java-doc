@@ -12,16 +12,19 @@ export default hopeTheme({
 
   //2.外观配置
   favicon: "/favicon.svg",
-  darkmode: "toggle",
+  // darkmode: "toggle",
+  darkmode: "disable",
   print:true,
   // iconAssets: "iconfont",
   iconAssets: [
-    //1. java+SQL
-    "https://at.alicdn.com/t/c/font_4012527_xhg10tkyrk.css?spm=a313x.7781069.1998910419.52&file=font_4012527_xhg10tkyrk.css",
+    
     //2. Common
-    "https://at.alicdn.com/t/c/font_4012534_xsn7tql6vvf.css?spm=a313x.7781069.1998910419.52&file=font_4012534_xsn7tql6vvf.css",
+    "https://at.alicdn.com/t/c/font_4012534_wmhgqdr8a9g.css?spm=a313x.7781069.1998910419.52&file=font_4012534_wmhgqdr8a9g.css",
     //3. Other
-    "https://at.alicdn.com/t/c/font_4012543_xhboviprh8q.css?spm=a313x.7781069.1998910419.89&file=font_4012543_xhboviprh8q.css"
+    "https://at.alicdn.com/t/c/font_4012543_bepwhxdeygm.css?spm=a313x.7781069.1998910419.52&file=font_4012543_bepwhxdeygm.css",
+
+    //1. java+SQL
+    "https://at.alicdn.com/t/c/font_4012527_hond5ggblg6.css?spm=a313x.7781069.1998910419.52&file=font_4012527_hond5ggblg6.css",
   ],
 
 
@@ -65,7 +68,7 @@ export default hopeTheme({
   blog:{
     avatar:"/avatar.jpg",
     name:"Victor Da V",
-    description: "未来世界的流浪者，AI学习者",
+    description: "未来世界的流浪者",
     intro: "/about",
     roundAvatar: true,
     timeline:"时光机",
@@ -87,7 +90,8 @@ export default hopeTheme({
     },
     blog: {
       excerptLength:0,
-      filter:(page)=>Boolean(page.filePathRelative) && !page.frontmatter.home && Boolean(page.frontmatter.article)
+      // filter:(page)=>Boolean(page.filePathRelative) && !page.frontmatter.home && Boolean(page.frontmatter.article)
+      filter:(page)=>Boolean(page.filePathRelative)
     },
     components:{
       components:[

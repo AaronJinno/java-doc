@@ -10,6 +10,9 @@ actions:
   - text: 进入指南
     link: /guide/
     type: primary
+  - text: 关于
+    link: /article/
+    type: info
 
 features:
   - title: Java 全栈
