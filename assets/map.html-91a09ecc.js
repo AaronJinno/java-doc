@@ -1,0 +1,1 @@
+import{_ as n,P as a,Q as c,S as e,a4 as t}from"./framework-7e8eb00a.js";const s={},o=e("div",{class:"hint-container info"},[e("p",{class:"hint-container-title"},"相关信息"),e("p",null,[t("这个目前不太流行了，暂时不做整理了。"),e("br"),t(" 等用到了再说。")])],-1),r=[o];function _(i,l){return a(),c("div",null,r)}const f=n(s,[["render",_],["__file","map.html.vue"]]);export{f as default};
