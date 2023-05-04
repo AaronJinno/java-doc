@@ -1,11 +1,8 @@
 <!-- 
     组件使用指南：通过注解标签传递的props来定义主要的样式和内容。
-    image：图片的地址
     height：卡片的高度
     color：卡片标题的颜色
     title：卡片标题的内容
-    detail：详细信息的文本
-    
     其他样式：
     如果需要多列显示，就给#card添加float，并在最后一个卡片后面添加清除所有浮动的div
     <div style="clear:both"></div>

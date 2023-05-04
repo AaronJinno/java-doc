@@ -8,7 +8,7 @@ tagline: Java全栈文档，心血总结，包含SQL和服务器等
 
 actions: 
   - text: 进入指南
-    link: /guide/
+    link: /guide/man/
     type: primary
   - text: 关于
     link: /article/
