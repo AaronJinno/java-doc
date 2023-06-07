@@ -1,1 +1,0 @@
-import{_ as n,P as c,Q as s,S as e,a4 as t}from"./framework-7e8eb00a.js";const o={},a=e("div",{class:"hint-container info"},[e("p",{class:"hint-container-title"},"相关信息"),e("p",null,[t("这个目前不太流行了，暂时不做整理了。"),e("br"),t(" 等用到了再说。")])],-1),i=[a];function r(_,l){return c(),s("div",null,i)}const f=n(o,[["render",r],["__file","index.html.vue"]]);export{f as default};
