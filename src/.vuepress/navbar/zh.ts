@@ -1,5 +1,4 @@
-import { git, navbar } from "vuepress-theme-hope";
-import { m } from "vuepress-theme-hope/lib/node/index-eccaf9af";
+import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   
@@ -32,7 +31,7 @@ export const zhNavbar = navbar([
         link: "jvm/"
       },
       {
-        text: "内置函数",
+        text: "内置资源",
         icon: "java3",
         link: "func/"
       },
@@ -86,7 +85,7 @@ export const zhNavbar = navbar([
         ]
       },
       {
-        text: "其他框架",
+        text: "开发框架",
         children:[
           {
             text: "SpringBoot",
