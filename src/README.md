@@ -2,13 +2,13 @@
 home: true
 icon: home
 title: Java全栈
-heroImage: /avatar.jpg
+heroImage: /img/avatar.jpg
 heroText: Java全栈笔记
 tagline: Java全栈文档，心血总结，包含SQL和服务器等
 
 actions: 
-  - text: 进入指南
-    link: /guide/man/
+  - text: 快捷笔记
+    link: /guide/man
     type: primary
   - text: 关于
     link: /article/

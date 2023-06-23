@@ -96,11 +96,12 @@ export const zhNavbar = navbar([
       }
     ]
   },
+
   // 3. 微服务
   {
     text:"微服务",
     prefix:"/cloud/",
-    icon:"weifuwukaifa",
+    icon:"weifuwu",
     children:[
       {
         text: "SpringCloud & Alibaba",
@@ -178,7 +179,7 @@ export const zhNavbar = navbar([
   //5.服务器
   {
     text: "服务器",
-    icon: "yunpan",
+    icon: "database",
     prefix:"/service/",
     children:[
       {
@@ -193,7 +194,7 @@ export const zhNavbar = navbar([
       },
       {
         text: "Nginx",
-        icon: "nginx_",
+        icon: "nginx",
         link: "nginx/"
       },
       {
@@ -205,34 +206,34 @@ export const zhNavbar = navbar([
     ]
   },
 
-  //6. 插件
-  {
-    text: "插件",
-    icon: "zujianhua",
-    prefix:"/plugin/",
-    children:[
-      {
-        text: "swagger",
-        icon:"swagger",
-        link:"swagger/",
-      },
-    ]
-  },
 
-  //7. 轮子
+  //6. 轮子
   {
     text: "轮子",
     icon: "zujiancaozuozujianfuxuankuangxuanzhong",
     prefix: "/blocks/",
     children:[
       {
-        text: "后台管理",
-        icon: "houtai",
-        link: "admin/"
+        text: "若依rouyi",
+        icon: "guihuaheshi",
+        link: "rouyi/"
       }
     ]
   },
 
+  //7. dev
+  {
+    text: "dev",
+    icon: "kaifa1",
+    prefix: "/dev/",
+    children:[
+      {
+        text: "项目开发指南",
+        icon: "xinshouzhinan",
+        link: "项目开发指南/"
+      }
+    ]
+  },
 
 
   //8.项目
@@ -280,11 +281,23 @@ export const zhNavbar = navbar([
         children:[
           {
             text: "正则",
-            icon: "zhengze",
+            icon: "zhengzebiaodashi",
             link: "regex"
           }
         ]
-      }
+      },
+      {
+        text: "插件",
+        icon: "zujianhua",
+        prefix:"/plugin/",
+        children:[
+          {
+            text: "swagger",
+            icon:"swagger",
+            link:"swagger/",
+          },
+        ]
+      },
 
     ]
   },

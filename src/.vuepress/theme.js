@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { zhNavbar } from "./navbar/index.js";
-import { zhSidebar } from "./sidebar/index.js";
+import { zhNavbar } from "./navbar/navbar.js";
+import { zhSidebar } from "./sidebar/sidebar.js";
 
 export default hopeTheme({
   //1.基本配置
@@ -15,16 +15,10 @@ export default hopeTheme({
   // darkmode: "toggle",
   darkmode: "disable",
   print:true,
-  // iconAssets: "iconfont",
+  iconPrefix:"iconfont icon-",
   iconAssets: [
-    
-    //2. Common
-    "https://at.alicdn.com/t/c/font_4012534_wmhgqdr8a9g.css?spm=a313x.7781069.1998910419.52&file=font_4012534_wmhgqdr8a9g.css",
-    //3. Other
-    "https://at.alicdn.com/t/c/font_4012543_bepwhxdeygm.css?spm=a313x.7781069.1998910419.52&file=font_4012543_bepwhxdeygm.css",
-
-    //1. java+SQL
-    "https://at.alicdn.com/t/c/font_4012527_hond5ggblg6.css?spm=a313x.7781069.1998910419.52&file=font_4012527_hond5ggblg6.css",
+    "/iconfont/java/iconfont.css",
+    "/iconfont/common/iconfont.css",
   ],
 
 
@@ -66,7 +60,7 @@ export default hopeTheme({
     },
   },
   blog:{
-    avatar:"/avatar.jpg",
+    avatar:"/img/avatar.jpg",
     name:"Victor Da V",
     description: "未来世界的流浪者",
     intro: "/about",

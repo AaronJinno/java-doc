@@ -7,6 +7,7 @@ export const zhSidebar = sidebar({
   "/cloud/":"structure",
   "/sql/":"structure",
   "/service/":"structure",
+  "/dev/":"structure",
   "/plugin/":"structure",
   "/blocks/":"structure",
   "/item/":"structure",

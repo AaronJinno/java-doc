@@ -1,6 +1,6 @@
 ---
 title: "                nginx"
-icon: "nginx_"
+icon: "nginx"
 index: false
 ---
 ::: tip
