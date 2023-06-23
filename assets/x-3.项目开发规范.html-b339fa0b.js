@@ -1,0 +1,1 @@
+import{_ as t,o as _,c as n,a as e}from"./app-171d5e07.js";const c={},o=e("div",{class:"hint-container info"},[e("p",{class:"hint-container-title"},"相关信息"),e("p",null,"TBD")],-1),s=[o];function a(i,l){return _(),n("div",null,s)}const d=t(c,[["render",a],["__file","x-3.项目开发规范.html.vue"]]);export{d as default};
