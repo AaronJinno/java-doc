@@ -17,8 +17,8 @@ export default hopeTheme({
   print:true,
   iconPrefix:"iconfont icon-",
   iconAssets: [
-    "/iconfont/java/iconfont.css",
-    "/iconfont/common/iconfont.css",
+    "/java-doc/iconfont/java/iconfont.css",
+    "/java-doc/iconfont/common/iconfont.css",
   ],
 
 
@@ -140,7 +140,7 @@ export default hopeTheme({
     },
 
     pwa: {
-      favicon: "/favicon.ico",
+      favicon: "/favicon.svg",
       cacheHTML: true, //缓存所有HTML页面
       cachePic: true, //缓存站点图片
       appendBase: true,
