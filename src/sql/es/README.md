@@ -3,7 +3,10 @@ title: "ElasticSearch"
 icon: "elasticsearch-Elasticsearch"
 index: false
 ---
-
 :::tip
-文档迁移中...
+本笔记以 ElasticSearch 8.x版本为主，以7.x 版本为辅。
+
+当前市面上依然流行的ES7.x ，不过ES8.x已经更新了一年多了。
+
+本笔记所有场景所使用的版本均为：8.7.0，包括使用部分ES7.x的API。
 :::
