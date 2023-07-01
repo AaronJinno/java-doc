@@ -1,0 +1,1 @@
+import{_ as e,o as _,c as t,a as c}from"./app-889eb22c.js";const o={},s=c("p",null,"所有涉及到搜索的场景都可以使用ES。",-1),n=[s];function a(r,l){return _(),t("div",null,n)}const f=e(o,[["render",a],["__file","1-3.应用场景.html.vue"]]);export{f as default};
