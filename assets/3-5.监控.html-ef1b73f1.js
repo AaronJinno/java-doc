@@ -1,1 +1,0 @@
-import{_ as t,o as c,c as n,a as e}from"./app-889eb22c.js";const _={},s=e("div",{class:"hint-container tip"},[e("p",{class:"hint-container-title"},"提示"),e("p",null,"TBD")],-1),o=[s];function a(i,l){return c(),n("div",null,o)}const d=t(_,[["render",a],["__file","3-5.监控.html.vue"]]);export{d as default};
