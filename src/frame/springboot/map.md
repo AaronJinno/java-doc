@@ -20,7 +20,6 @@ title: "     ->Map"
     - log 日志
     - 监控
 - 集成Data
-    - 数据层技术
     - MySQL：JDBC、Druid
     - MyBatis：包含MyBatis Plus
     - Redis
