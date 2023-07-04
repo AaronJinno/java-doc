@@ -1,1 +1,0 @@
-import{_ as t,o as _,c,a as e}from"./app-cd3300e3.js";const n={},s=e("div",{class:"hint-container tip"},[e("p",{class:"hint-container-title"},"提示"),e("p",null,"TBD")],-1),o=[s];function a(i,l){return _(),c("div",null,o)}const d=t(n,[["render",a],["__file","x-2.开源项目.html.vue"]]);export{d as default};
