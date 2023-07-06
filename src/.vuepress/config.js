@@ -7,6 +7,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title:"Java全栈",
   description: "Java全栈技术中心",
+  port:8888,
 
   theme,
   shouldPrefetch: false,
