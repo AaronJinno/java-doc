@@ -99,6 +99,15 @@ export const zhNavbar = navbar([
 
   // 3. 微服务
   {
+    text:"中间件",
+    prefix:"/middle/",
+    icon:"jimu",
+    children:[
+      
+    ]
+  },
+  // 4.中间件
+  {
     text:"微服务",
     prefix:"/cloud/",
     icon:"weifuwu",
@@ -140,8 +149,7 @@ export const zhNavbar = navbar([
     ]
   },
 
-
-   //4.SQL
+   //5.SQL
   {
     text: "SQL",
     icon: "sql",
@@ -176,7 +184,7 @@ export const zhNavbar = navbar([
   },
 
 
-  //5.服务器
+  //6.服务器
   {
     text: "服务器",
     icon: "database",
@@ -207,7 +215,7 @@ export const zhNavbar = navbar([
   },
 
 
-  //6. 轮子
+  //7. 轮子
   {
     text: "轮子",
     icon: "zujiancaozuozujianfuxuankuangxuanzhong",
@@ -221,7 +229,7 @@ export const zhNavbar = navbar([
     ]
   },
 
-  //7. dev
+  //8. dev
   {
     text: "dev",
     icon: "kaifa1",
@@ -236,7 +244,7 @@ export const zhNavbar = navbar([
   },
 
 
-  //8.项目
+  //9.项目
   {
     text: "项目",
     icon: "shixushujuku",
@@ -250,7 +258,7 @@ export const zhNavbar = navbar([
     ]
   },
 
-  //9.其他
+  //10.其他
   {
     text: "其他",
     icon:"qita",
