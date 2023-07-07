@@ -33,7 +33,7 @@ export default hopeTheme({
     end: ["Outlook","Search"]
   },
   sidebarIcon: true,
-  headerDepth: 1,
+  headerDepth: 2,
   pageInfo:[
     "Author","Date","Category","Tag","Word"
   ],
