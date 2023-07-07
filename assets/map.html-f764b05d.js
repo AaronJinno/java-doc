@@ -1,1 +1,0 @@
-import{_ as c,o as n,c as a,a as e,b as t}from"./app-a9d52fc3.js";const o={},s=e("div",{class:"hint-container info"},[e("p",{class:"hint-container-title"},"相关信息"),e("p",null,[t("这个目前不太流行了，暂时不做整理了。"),e("br"),t(" 等用到了再说。")])],-1),r=[s];function _(i,l){return n(),a("div",null,r)}const f=c(o,[["render",_],["__file","map.html.vue"]]);export{f as default};
