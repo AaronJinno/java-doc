@@ -10,6 +10,7 @@ export const zhSidebar = sidebar({
   "/dev/":"structure",
   "/plugin/":"structure",
   "/blocks/":"structure",
-  "/item/":"structure",
+  // "/item/":"structure",
+  "/item/苍穹外卖":"structure",
   "/other/":"structure",
 });

@@ -251,9 +251,9 @@ export const zhNavbar = navbar([
     prefix: "/item/",
     children:[
       {
-        text: "学习项目",
-        icon: "xinshouzhinan",
-        link: "learn/",
+        text: "苍穹外卖",
+        icon: "meituanwaimai",
+        link: "苍穹外卖/",
       }
     ]
   },

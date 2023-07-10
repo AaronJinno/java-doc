@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://aicell.cc/about",
   },
 
-  //2.外观配置
+  //2.外观配置S
   favicon: "/favicon.svg",
   // darkmode: "toggle",
   darkmode: "disable",
@@ -19,6 +19,7 @@ export default hopeTheme({
   iconAssets: [
     "/java-doc/iconfont/java/iconfont.css",
     "/java-doc/iconfont/common/iconfont.css",
+    "https://at.alicdn.com/t/c/font_4063604_n8kv9o2az5p.css?spm=a313x.7781069.1998910419.53&file=font_4063604_n8kv9o2az5p.css"
   ],
 
 
