@@ -92,21 +92,17 @@ export const zhNavbar = navbar([
             icon: "SPRINGBOOT",
             link: "springboot/"
           },
+          {
+            text: "SpringSecurity",
+            icon: "security",
+            link: "springsecurity/"
+          },
         ]
       }
     ]
   },
 
-  // 3. 微服务
-  {
-    text:"中间件",
-    prefix:"/middle/",
-    icon:"jimu",
-    children:[
-      
-    ]
-  },
-  // 4.中间件
+  // 3.微服务
   {
     text:"微服务",
     prefix:"/cloud/",
@@ -149,9 +145,23 @@ export const zhNavbar = navbar([
     ]
   },
 
-   //5.SQL
+  // 4. Tool
+  // {
+  //   text:"",
+  //   prefix:"/tool/",
+  //   icon:"jimu",
+  //   children:[
+  //     {
+  //       text: "快捷工具",
+  //       icon: "spring-cloud",
+  //       link: "kits/",
+  //     },
+  //   ]
+  // },
+
+   //5.Data
   {
-    text: "SQL",
+    text: "Data",
     icon: "sql",
     prefix: "/sql/",
     children:[
@@ -239,6 +249,11 @@ export const zhNavbar = navbar([
         text: "项目开发指南",
         icon: "xinshouzhinan",
         link: "项目开发指南/"
+      },
+      {
+        text: "Java工具类库",
+        icon: "a-gongjuxiang1",
+        link: "library/"
       }
     ]
   },
@@ -309,5 +324,4 @@ export const zhNavbar = navbar([
 
     ]
   },
-
 ]);

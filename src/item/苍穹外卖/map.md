@@ -70,7 +70,7 @@ icon: meituanwaimai
 ![004](/img/item/苍穹外卖/004.png)
 
 #### 用户层：前端
-包开：管理后台和微信小程序客户端。
+包括：管理后台和微信小程序客户端。
 
 涉及：H5、Vue.js、ElementUI、apache echarts(展示图表)、微信开发等技术
 
