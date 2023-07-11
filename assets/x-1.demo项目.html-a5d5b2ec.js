@@ -1,1 +1,0 @@
-import{_ as t,o as c,c as n,a as e}from"./app-2f916dc9.js";const o={},s=e("div",{class:"hint-container tip"},[e("p",{class:"hint-container-title"},"提示"),e("p",null,"TBD")],-1),_=[s];function a(i,l){return c(),n("div",null,_)}const d=t(o,[["render",a],["__file","x-1.demo项目.html.vue"]]);export{d as default};
