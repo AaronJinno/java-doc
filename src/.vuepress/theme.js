@@ -19,7 +19,7 @@ export default hopeTheme({
   iconAssets: [
     "/java-doc/iconfont/java/iconfont.css",
     "/java-doc/iconfont/common/iconfont.css",
-    "https://at.alicdn.com/t/c/font_4063604_vdeqmo73g7h.css?spm=a313x.7781069.1998910419.53&file=font_4063604_vdeqmo73g7h.css"
+    "https://at.alicdn.com/t/c/font_4063604_6sa6qwef8oo.css?spm=a313x.7781069.1998910419.53&file=font_4063604_6sa6qwef8oo.css"
   ],
 
 

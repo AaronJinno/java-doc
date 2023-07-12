@@ -146,18 +146,28 @@ export const zhNavbar = navbar([
   },
 
   // 4. Tool
-  // {
-  //   text:"",
-  //   prefix:"/tool/",
-  //   icon:"jimu",
-  //   children:[
-  //     {
-  //       text: "快捷工具",
-  //       icon: "spring-cloud",
-  //       link: "kits/",
-  //     },
-  //   ]
-  // },
+  {
+    text:"Su",
+    prefix:"/tool/",
+    icon:"jimu",
+    children:[
+      {
+        text: "Oauth",
+        icon: "quanxian",
+        link: "kits/",
+      },
+      {
+        text: "第三方API对接",
+        icon: "API",
+        link: "kits/",
+      },
+      {
+        text: "swagger",
+        icon: "swagger",
+        link: "kits/",
+      },
+    ]
+  },
 
    //5.Data
   {
@@ -246,15 +256,36 @@ export const zhNavbar = navbar([
     prefix: "/dev/",
     children:[
       {
-        text: "项目开发指南",
+        text: "开发指南",
         icon: "xinshouzhinan",
         link: "项目开发指南/"
       },
       {
-        text: "Java工具类库",
+        text: "架构",
+        icon: "qiquanjiagou",
+        link: "schema/"
+      },
+      {
+        text: "Java类库",
         icon: "a-gongjuxiang1",
         link: "library/"
-      }
+      },
+      {
+        text: "功能封装",
+        icon: "zujianhua",
+        link: "component/"
+      },
+      {
+        text: "模块封装",
+        icon: "mokuai",
+        link: "module/"
+      },
+      {
+        text: "debug",
+        icon: "debug",
+        link: "debug/"
+      },
+
     ]
   },
 
@@ -293,14 +324,24 @@ export const zhNavbar = navbar([
         text:"理论",
         children:[
           {
+            text: "算法",
+            icon: "suanfa1",
+            link: "mode/"
+          },
+          {
             text: "设计模式",
             icon: "shejimoshi",
             link: "mode"
-          }
+          },
+          {
+            text: "网络协议",
+            icon: "TCP",
+            link: "mode"
+          },
         ]
       },
       {
-        text:"专业与通用技术",
+        text:"通用技术",
         children:[
           {
             text: "正则",
@@ -309,19 +350,6 @@ export const zhNavbar = navbar([
           }
         ]
       },
-      {
-        text: "插件",
-        icon: "zujianhua",
-        prefix:"/plugin/",
-        children:[
-          {
-            text: "swagger",
-            icon:"swagger",
-            link:"swagger/",
-          },
-        ]
-      },
-
     ]
   },
 ]);

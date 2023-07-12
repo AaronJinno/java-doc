@@ -7,10 +7,14 @@ export const zhSidebar = sidebar({
   "/cloud/":"structure",
   "/sql/":"structure",
   "/service/":"structure",
-  "/dev/":"structure",
-  "/plugin/":"structure",
   "/blocks/":"structure",
+  "/other/":"structure",
+
+
   // "/item/":"structure",
   "/item/苍穹外卖":"structure",
-  "/other/":"structure",
+
+
+  "/dev/":"structure",
+  "/dev/library/":"structure",
 });

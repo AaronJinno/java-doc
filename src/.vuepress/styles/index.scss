@@ -12,7 +12,7 @@
 //     //将
 // }
 h4{
-    font-size:1.2rem;
+    font-size:1.1rem;
     font-weight:600;
 }
 
@@ -20,17 +20,21 @@ h2{
     font-weight:600;
     color: #560745;
 }
-// h3{
-//     font-size:1.2rem;
-//     font-weight:600;
-// }
+h3{
+    font-size:1.4rem;
+    font-weight:600;
+}
 
 h5{
     font-size:0.98rem;
     font-weight:600;
 }
 
-// 调整下头部导航条目的间隔
+// 调整头部导航条目的间隔
 .vp-navbar .nav-item{
-    margin: 0 0.15rem;
+    margin: 0 0.1rem;
+}
+
+.navbar .nav-item{
+    margin:0 0.15rem;
 }
