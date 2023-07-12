@@ -145,16 +145,16 @@ export const zhNavbar = navbar([
     ]
   },
 
-  // 4. Tool
+  // 4. su
   {
     text:"Su",
-    prefix:"/tool/",
+    prefix:"/su/",
     icon:"jimu",
     children:[
       {
         text: "Oauth",
         icon: "quanxian",
-        link: "kits/",
+        link: "oauth/",
       },
       {
         text: "第三方API对接",
@@ -164,7 +164,7 @@ export const zhNavbar = navbar([
       {
         text: "swagger",
         icon: "swagger",
-        link: "kits/",
+        link: "swagger/",
       },
     ]
   },
